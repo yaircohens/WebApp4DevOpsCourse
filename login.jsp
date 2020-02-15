@@ -8,8 +8,8 @@
             <%
 		String username=request.getParameter("usrname");
 		String password=request.getParameter("passwd");
-		if((username.equals("admin") && password.equals("admin")) || (username.equals("moshe") && password.equals("moshe")))
-                 { out.println("Login has been successful!"); }
+                if((username.equals("admin") && password.equals("admin")) || (username.equals("moshe") && password.equals("moshe")) ((username.equals("user") && password.equals("user")))
+                 { out.println("Logged in succussfully! ^_^"); }
                 else out.println("Oops, bad username or password :/") ; 
             %>
  </body>
