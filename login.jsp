@@ -10,7 +10,7 @@
 		String password=request.getParameter("passwd");
                 if((username.equals("admin") && password.equals("admin")) || (username.equals("moshe") && password.equals("moshe")) || (username.equals("user") && password.equals("user")))
                  { out.println("Logged in succussfully!! ^_^"); }
-                else out.println("Oops, bad username or password GREFFEWFDS432") ; 
+                else out.println("Oops, bad username or password for god sake") ; 
             %>
  </body>
  </html>
