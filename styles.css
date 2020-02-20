@@ -1,0 +1,18 @@
+#titleStyle {
+      font-size: 36px;
+      font-family: monospace;
+      color: grey
+ }
+ #InputStyle {
+      font-size: 14px;
+      font-family: monospace;
+ }
+ #CreditStyle {
+      font-size: 14px;
+      font-family: monospace;
+ }
+  #SubmitStyle {
+      font-size: 14px;
+      font-family: monospace;
+      color: green;
+ }
